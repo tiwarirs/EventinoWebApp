@@ -1,0 +1,13 @@
+<style>
+h1{
+
+text-align:center;
+}
+
+
+</style>
+
+<h1>Welcome to Lost And Found</h1>
+<%= link_to 'Found Items', founditems_path %>
+<br>
+<%= link_to 'Lost Items', lostitems_path,style:"font-size: 20px" %>
